@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #303030;
+    padding: 5px;
+    color: #fff;
+    display: grid;
+    text-align: center;
+}
+
+#logo {
+    width: 100px;
+    padding: 10px;
+}
+
+main {
+    padding: 30px 50px;
+}
+
+.card {
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.inputPd {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    border: 0;
+    padding: 10px;
+    color: antiquewhite;
+    background-color: #303030;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all ease .5s;
+}
+
+button:hover {
+    background-color: black;
+    font-size: 15px;
+}
+
+.container {
+    margin-top: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+table th {
+    background-color: #303030;
+    color: antiquewhite;
+    padding: 1px;
+    text-align: center;
+}
+
+table td {
+    padding: 1px;
+    text-align: center;
+}
+
+
+table td img {
+    width: 25px;
+    align-items: center;
+    text-align: center;
+    transition: .5s ease;
+    padding: 5px;
+}
+
+table td:hover img{
+    cursor: pointer;
+    width: 30px;
+
+}
